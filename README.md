@@ -2,6 +2,8 @@
 
 A versioned, machine-readable capability matrix for AI models: declare what each model can do in a typed JSON schema, then validate, merge overlays with conflict detection, diff releases, and export comparison tables. Pure standard library, offline.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Teams track "which model supports what" in wikis, tribal knowledge, and stale spreadsheets. Two sources say different context windows and nobody notices; a downgrade slips into the routing config; there is no diff, no history, no merge story between team-owned overlays. The fix is boring: one validated document per version, with tooling that refuses silent conflicts.
